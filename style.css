@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.secao{
+    width: 100%;
+    max-width: 412px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background: rgb(10,66,63);
+background: linear-gradient(95deg, rgba(10,66,63,0.9401960613346901) 0%, rgba(57,161,116,0.744117629962141) 100%);
+}
+
+.main-title{
+    font-size:3.5em ;
+    height: 1.5em;
+}
+
+.desc{
+    font-size: 0.9em;
+    text-align: right;
+    padding: 0.4em;
+    margin: 0.4em;
+    word-spacing: 0.2em;
+}
+
+.icon-list{
+    display: block;
+}
+
+.icon{
+    background-color: gray;
+    border: 1px solid gray;
+    width: 0.5em;
+    height: 0.5em;
+    margin: 20px;
+}
