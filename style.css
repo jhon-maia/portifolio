@@ -14,6 +14,7 @@ body{
     flex-direction: column;
     color: white;
     background: rgb(10,66,63);
+    font-family: 'Alfa Slab One', cursive;
 background: linear-gradient(95deg, rgba(10,66,63,0.9401960613346901) 0%, rgba(57,161,116,0.744117629962141) 100%);
 }
 
@@ -30,14 +31,22 @@ background: linear-gradient(95deg, rgba(10,66,63,0.9401960613346901) 0%, rgba(57
     word-spacing: 0.2em;
 }
 
-.icon-list{
-    display: block;
+
+
+.principal-box{
+   
+    display:grid;
+    
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.icon{
-    background-color: gray;
-    border: 1px solid gray;
-    width: 0.5em;
-    height: 0.5em;
-    margin: 20px;
+.icons {
+    width: 1rem;
+    background-color:gray;
+    height: 1rem;
+    text-decoration: none;
+    
 }
+
